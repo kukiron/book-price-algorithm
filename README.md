@@ -18,6 +18,6 @@ For example, how much does this basket of books cost?
 
 - 1 copy of the fifth book
 
-## How to run test file
+## How to run tests
 
 To run the test file - `npm i && npm test`
