@@ -20,4 +20,8 @@ For example, how much does this basket of books cost?
 
 ## How to run tests
 
-To run the test file - `npm i && npm test`
+```shell
+> git clone https://github.com/kukiron/book-price-algorithm.git
+> cd book-price-algorithm
+> npm i && npm test
+```
