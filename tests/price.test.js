@@ -5,7 +5,7 @@ describe("Total price", () => {
     expect(getTotal([0,0,0,0,0])).toBe(0);
   });
 
-  it("with no discount if a single book of each type is selected", () => {
+  it("with no discount if only one type of book is selected", () => {
     expect(getTotal([1,0,0,0,0])).toBe(8);
     expect(getTotal([0,1,0,0,0])).toBe(8);
     expect(getTotal([0,0,2,0,0])).toBe(16);
